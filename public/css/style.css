@@ -1,0 +1,26 @@
+.imgStyle{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    overflow: hidden;
+}
+.imgStyle img{
+        height: 120px;
+        width: 100%;
+        position: relative;
+        vertical-align: middle;
+        object-fit: cover;
+        opacity: 85%;
+}
+
+.tituloStyle{
+    
+    text-align: center;
+    position: absolute;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+
+}
